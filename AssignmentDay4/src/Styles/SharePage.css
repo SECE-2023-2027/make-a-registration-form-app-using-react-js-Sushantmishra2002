@@ -1,0 +1,96 @@
+/* === GLOBAL RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* === WRAPPER === */
+.share-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* === HEADER SECTION === */
+.share-header {
+  background-color: #007bff;
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+.share-header h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.share-header p {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 25px;
+}
+
+.share-header button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+/* === CONTENT SECTION === */
+.share-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  max-width: 100%;
+  overflow: hidden;
+  gap: 40px;
+}
+
+.image-block {
+  flex-shrink: 0;
+  max-width: 300px;
+}
+
+.image-block img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+/* === TEXT BLOCK === */
+.text-block {
+  max-width: 600px;
+  width: 100%;
+}
+
+.text-block h2 {
+  text-transform: lowercase;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.text-block p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
